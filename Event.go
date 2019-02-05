@@ -10,7 +10,7 @@ type Event struct {
 }
 type hEvent {
 	Handle Hfunc
-	CChan *chan	Event
+	CChan *chan Event
 	Events []string
 }
 
